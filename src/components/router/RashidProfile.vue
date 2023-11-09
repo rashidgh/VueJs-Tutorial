@@ -1,5 +1,7 @@
 <template>
-  <h3>Hello I'm {{ profile }}</h3>
+  <div>
+    <h3>Hello I'm {{ profile }}</h3>
+  </div>
 </template>
 <script>
 import { useRoute } from "vue-router";
@@ -18,3 +20,13 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+div {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>

@@ -3,6 +3,7 @@ import HomeComp from "./HomeComp.vue";
 import AddToCart from "./AddToCart.vue";
 import BuyNow from "./BuyNow.vue";
 import Profile from "./RashidProfile.vue";
+import PageNotFound from "./PageNotFound.vue";
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     name: "RashidProfile",
     path: "/profile/:name",
     component: Profile,
+  },
+  {
+    name: "PageNotFound",
+    path: "/profile/:pathMatch(.*)*",
+    component: PageNotFound,
   },
 ];
 

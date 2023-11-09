@@ -1,9 +1,11 @@
 <template>
-  <div><h3>I'm Add to cart Component</h3></div>
+  <div>
+    <h2>Page Not Found 404</h2>
+  </div>
 </template>
 <script>
 export default {
-  name: "AddToCart",
+  name: "PageNotFound",
 };
 </script>
 
