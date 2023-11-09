@@ -28,7 +28,7 @@ const routes = [
   },
   {
     name: "PageNotFound",
-    path: "/profile/:pathMatch(.*)*",
+    path: '/:pathMatch(.*)*',
     component: PageNotFound,
   },
 ];
