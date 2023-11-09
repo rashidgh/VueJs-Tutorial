@@ -14,6 +14,5 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* hello I'm Css  */
 }
 </style>
