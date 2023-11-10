@@ -1,10 +1,14 @@
 <template>
-  <router-view></router-view>
+  <CallApiVue />
 </template>
 
 <script>
+import CallApiVue from "./components/CallApi.vue";
 export default {
   name: "App",
+  components: {
+    CallApiVue,
+  },
 };
 </script>
 
