@@ -1,13 +1,13 @@
 <template>
-  <CallApiVue />
+  <PostApiVue />
 </template>
 
 <script>
-import CallApiVue from "./components/CallApi.vue";
+import PostApiVue from "./components/PostApi.vue"
 export default {
   name: "App",
   components: {
-    CallApiVue,
+    PostApiVue,
   },
 };
 </script>

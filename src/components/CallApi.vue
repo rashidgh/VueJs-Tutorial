@@ -1,9 +1,8 @@
 <template>
   <h3>Api Call</h3>
-  <ul>
-    <li v-for="a in item" :key="a">{{a.title}}</li>
-    <!-- <li>{{item.map(li=>li)}}</li> -->
-    
+  <ul v-for="a in item" :key="a">
+    <li >{{a.title}}</li>
+    <li>{{a.id}}</li>
   </ul>
 </template>
 
@@ -14,7 +13,6 @@ export default {
   data(){
     return{
         item:[],
-        
     }
   },
   async mounted() {
